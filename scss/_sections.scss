@@ -1,0 +1,14 @@
+.about-us {
+  &__image {
+    @media (min-width: 1200px) {
+      background-image: url('../img/bg-welcome.png');
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: right center;
+    }
+  }
+
+  &__paragraph {
+    max-width: 40rem;
+  }
+}

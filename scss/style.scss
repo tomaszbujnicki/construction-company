@@ -1,1 +1,16 @@
+@font-face {
+  font-family: 'Futura LT Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Book'), url('./FuturaLT-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura LT Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Bold'), url('./FuturaLT-Bold.woff') format('woff');
+}
+
 @import './custom';
+@import './sections';
