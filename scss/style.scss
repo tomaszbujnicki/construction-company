@@ -12,5 +12,7 @@
   src: local('Futura LT Bold'), url('./FuturaLT-Bold.woff') format('woff');
 }
 
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 @import './custom';
+@import './components';
 @import './sections';

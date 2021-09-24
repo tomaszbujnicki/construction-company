@@ -1,0 +1,35 @@
+.pro-card {
+  width: 15rem;
+  text-align: center;
+  margin: 0 auto 2rem;
+
+  &__img {
+    height: 9rem;
+    border-radius: 50%;
+    margin: 3rem;
+    box-shadow: 0 0 0 1rem rgba(255, 203, 15, 1),
+      0 0 0 2rem rgba(255, 203, 15, 0.5), 0 0 0 3rem rgba(255, 203, 15, 0.2);
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  @media (max-width: 319px) {
+    width: auto;
+    margin-bottom: 1rem;
+
+    &__img {
+      height: auto;
+      box-shadow: none;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.service {
+  @media (min-width: 1200px) {
+    max-width: 360px;
+  }
+}

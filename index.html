@@ -7,22 +7,120 @@
     <title>Construction Company</title>
   </head>
   <body>
-    <section id="about-us" class="about-us ">
-      <div class="container pt-2 pb-0 ">
+    <div
+      class="navbar d-none d-lg-flex fixed-top bg-primary py-0 fs-6"
+      style="height: 3rem"
+    >
+      <div class="container">
+        <div class="d-flex">
+          <div><i class="fas fa-mobile-alt"></i> 1234 - 5678 - 9012</div>
+          <div class="ms-2">
+            <i class="fas fa-envelope"></i> support@example.com
+          </div>
+          <div class="ms-2">
+            <i class="far fa-clock"></i> Mon - Fri 9am - 5pm
+          </div>
+        </div>
+        <div class="fs-4">
+          <a href="https://www.facebook.com/" aria-label="facebook">
+            <i aria-hidden="true" class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com/" aria-label="twitter">
+            <i aria-hidden="true" class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.behance.net/" aria-label="behance">
+            <i aria-hidden="true" class="fab fa-behance"></i>
+          </a>
+          <a href="https://www.linkedin.com/" aria-label="linkedin">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.dribbble.com/" aria-label="dribbble">
+            <i aria-hidden="true" class="fab fa-dribbble"></i>
+          </a>
+          <a href="https://www.youtube.com/" aria-label="youtube">
+            <i aria-hidden="true" class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><span class="text-white">Const</span
+          ><span class="text-primary">COMP</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#form" class="nav-link">BOOK CAB</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tariffs" class="nav-link">TARIFFS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#app" class="nav-link">APP</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="header" class="header">
+      <div class="container text-white text-center py-3 py-md-4 py-xl-5">
+        <p class="fs-2">We are Certified Engineers</p>
+        <h1 class="h2 mb-4 mb-xl-5">
+          CONSTRUCTION SERVICES<br /><span class="text-primary"
+            >CREATIVE & PROFESSIONAL</span
+          >
+        </h1>
+        <p class="fs-4 mb-4 mb-xl-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sed fuga
+          eligendi laudantium. Nam, officia ut iure beatae inventore quos
+          commodi, doloremque esse tempore perferendis reiciendis ratione
+          voluptatibus fugiat sint!
+        </p>
+        <div
+          class="
+            d-flex
+            flex-column flex-md-row
+            align-items-center
+            justify-content-around
+            mb-4 mb-xl-5
+            px-md-5
+          "
+        >
+          <button class="btn btn-primary btn-lg mb-2">CONTACT</button>
+          <button class="btn btn-primary btn-lg mb-2">PROJECTS</button>
+        </div>
+      </div>
+    </header>
+    <section id="about-us" class="about-us">
+      <div class="container pt-2 pb-0">
         <div class="row about-us__image">
           <div class="col-lg-9 col-xl-7 py-4">
             <div>
-              <header>
-                <h2 class="text-primary">WELCOME TO OUR COMPANY</h2>
-                <p class="subhead">We are the best</p>
+              <header class="text-center text-sm-start mb-3">
+                <h2 class="text-primary mb-0">WELCOME TO OUR COMPANY</h2>
+                <p class="h3 text-dark">We are Certified Engineers</p>
               </header>
-              <p class="about-us__paragraph">
+              <p class="about-us__paragraph fs-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Blanditiis nihil minima perspiciatis autem delectus eveniet est
                 corporis accusamus ad earum, alias cupiditate expedita,
                 dignissimos harum! Modi nihil itaque rem minima.
               </p>
-              <p class="about-us__paragraph">
+              <p class="about-us__paragraph fs-5 mb-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Blanditiis nihil minima perspiciatis autem delectus eveniet est
                 corporis accusamus ad earum, alias cupiditate expedita,
@@ -31,12 +129,158 @@
               <button class="btn btn-primary">READ MORE</button>
             </div>
           </div>
-          <div class="d-none d-lg-flex col-lg-3 col-xl-5 align-items-end justify-content-center">
-            <img
-              src="./img/img-welcome.png"
-              alt=""
-              class="img-fluid"
-            />
+          <div
+            class="
+              d-none d-lg-flex
+              col-lg-3 col-xl-5
+              align-items-end
+              justify-content-center
+            "
+          >
+            <img src="./img/img-welcome.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="choose-us" class="choose-us">
+      <div class="container py-3">
+        <header class="text-center mb-3">
+          <h2 class="text-primary mb-0">WHY CHOOSE US?</h2>
+          <p class="h3 text-dark">YOU CAN COUNT ON US</p>
+        </header>
+        <div class="row">
+          <div class="col col-md-6 col-xl-3">
+            <div class="pro-card">
+              <div class="pro-card__img">
+                <i class="fas fa-hotel"></i>
+              </div>
+              <h3>Professional design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                doloremque officiis placeat aliquam? Mollitia, sunt.
+              </p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-xl-3">
+            <div class="pro-card">
+              <div class="pro-card__img">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3>Always on time</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                doloremque officiis placeat aliquam? Mollitia, sunt.
+              </p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-xl-3">
+            <div class="pro-card">
+              <div class="pro-card__img">
+                <i class="fas fa-user-cog"></i>
+              </div>
+              <h3>Top engineers</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                doloremque officiis placeat aliquam? Mollitia, sunt.
+              </p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-xl-3">
+            <div class="pro-card">
+              <div class="pro-card__img">
+                <i class="fas fa-clipboard"></i>
+              </div>
+              <h3>Quality control</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                doloremque officiis placeat aliquam? Mollitia, sunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container py-3">
+        <h2 class="text-center mb-3">OUR SERVICES</h2>
+        <div class="row">
+          <div class="col-12 col-xl-4 mb-3">
+            <div class="service row text-center">
+              <h3 class="mb-2 col-12 order-xl-2">CONSTRUCTION MANAGMENT</h3>
+              <div class="col-12 col-md-6 col-xl-12 mb-2 order-xl-1 p-0">
+                <img src="./img/img-services-3.png" alt="" class="mw-100" />
+              </div>
+              <div
+                class="
+                  col-12 col-md-6
+                  mb-2
+                  col-xl-12
+                  ps-md-2 ps-lg-0
+                  order-xl-3
+                "
+              >
+                <p class="text-md-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                  velit accusantium dolor quasi minima iste impedit facilis ut
+                  nulla voluptatum eveniet voluptates excepturi, sit, cupiditate
+                  quos porro laborum repellendus officia laudantium vero
+                  quisquam quis. Natus, ipsam aspernatur? Id, quidem beatae?
+                </p>
+                <a href="#" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4 mb-3">
+            <div class="service row text-center">
+              <h3 class="mb-2 col-12 order-xl-2">RENOVATION</h3>
+              <div class="col-12 col-md-6 col-xl-12 mb-2 order-xl-1 p-0">
+                <img src="./img/img-services-2.png" alt="" class="mw-100" />
+              </div>
+              <div
+                class="
+                  col-12 col-md-6
+                  mb-2
+                  col-xl-12
+                  ps-md-2 ps-lg-0
+                  order-xl-3
+                "
+              >
+                <p class="text-md-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                  velit accusantium dolor quasi minima iste impedit facilis ut
+                  nulla voluptatum eveniet voluptates excepturi, sit, cupiditate
+                  quos porro laborum repellendus officia laudantium vero
+                  quisquam quis. Natus, ipsam aspernatur? Id, quidem beatae?
+                </p>
+                <a href="#" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4 mb-3">
+            <div class="service row text-center">
+              <h3 class="mb-2 col-12 order-xl-2">ARCHIECTURE</h3>
+              <div class="col-12 col-md-6 col-xl-12 mb-2 order-xl-1 p-0">
+                <img src="./img/img-services-1.png" alt="" class="mw-100" />
+              </div>
+              <div
+                class="
+                  col-12 col-md-6
+                  mb-2
+                  col-xl-12
+                  ps-md-2 ps-lg-0
+                  order-xl-3
+                "
+              >
+                <p class="text-md-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                  velit accusantium dolor quasi minima iste impedit facilis ut
+                  nulla voluptatum eveniet voluptates excepturi, sit, cupiditate
+                  quos porro laborum repellendus officia laudantium vero
+                  quisquam quis. Natus, ipsam aspernatur? Id, quidem beatae?
+                </p>
+                <a href="#" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
