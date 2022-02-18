@@ -2,6 +2,7 @@ body::before {
   content: '';
   height: 5rem;
   display: block;
+  background-color: rgb(33, 37, 41);
   @media (min-width: 991px) {
     height: 8rem;
   }
@@ -10,8 +11,14 @@ body::before {
 .main-nav {
   min-height: 5rem;
   @media (min-width: 991px) {
-    margin-top: 3rem;
+    transition: margin-top 0.5s ease;
+    &.top {
+      margin-top: 3rem;
+    }
   }
+}
+.scroll-margin-top {
+  scroll-margin-top: 5rem;
 }
 
 .header {
@@ -37,4 +44,39 @@ body::before {
 
 .choose-us {
   background: #f2f7fa;
+}
+
+.footer {
+  background-image: url('../img/bg-footer.png');
+  background-size: cover;
+
+  &__h3 {
+    font-family: 'Futura LT Book', sans-serif;
+  }
+
+  &__list {
+    list-style: url('../img/caret-right-solid.svg');
+  }
+
+  &__link {
+    color: #ffffff;
+    &:hover {
+      color: rgb(255, 203, 15);
+    }
+  }
+
+  &__media {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgb(255, 203, 15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    &:hover {
+      color: white;
+    }
+  }
 }
